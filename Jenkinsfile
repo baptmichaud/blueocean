@@ -9,6 +9,7 @@ pipeline {
     stage('Generating Environment') {
       steps {
         echo 'Creating Resource Group'
+        sh 'echo "test"'
       }
     }
   }
